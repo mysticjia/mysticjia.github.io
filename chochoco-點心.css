@@ -1,0 +1,209 @@
+@charset "utf-8";
+.items{
+margin: 0 auto;
+max-width: 1140px;
+}
+.items a{
+display:inline-block;
+text-decoration:none;
+color:white;
+font-family: 'Montserrat', sans-serif;
+text-transform: uppercase;
+font-size: 20px;
+font-weight:400;
+margin:0 42px;
+height: 30px;
+overflow: hidden;
+}
+.items a span{
+display: inline-block;
+position:relative;
+transition: transform 500ms;
+-webkit-transition: -webkit-transform 500ms;
+-moz-transition: transform 500ms;
+}
+.items a span:after{
+content: attr(data-hover);
+position: absolute;
+top: -30px;
+left:0;
+transform: translate3d(0,0,0);
+-moz-transform: translate3d(0,0,0);
+-webkit-transform: translate3d(0,0,0);
+}
+.items a:hover span,
+.items a:focus span {
+transform: translateY(30px);
+-webkit-transform: translateY(30px);
+-moz-transform: translateY(30px);
+}
+#all{
+height: 1580px;
+background-color: #271A18;
+}
+#nav{
+height: 310px;
+background-color: #271A18;
+margin-bottom: 50px;
+}
+#nav_top{
+height: 55px;
+background-color: #271A18;
+position: relative;
+margin-bottom: 15px;
+}
+#nav_R{
+width:225px;
+height: 30px;
+position: absolute;
+right: 0px;
+bottom: 0px;
+padding-right: 15px;
+}
+#shopping{
+height: 30px;
+height: 30px;
+background-image: url('logo/02.png');
+color: white;
+background-repeat: no-repeat;
+margin-right: 15px;
+float: left;
+}
+#member{
+height: 30px;
+height: 30px;
+background-image: url('logo/01.png');
+color: white;
+background-repeat: no-repeat;
+float: left;
+}
+#nav_ind{
+height: 145px;
+background-color: #271A18;
+}
+#logo{
+width: 213px;
+height: 105px;
+background-image: url('logo/03.png');
+margin-left: auto;
+margin-right: auto;
+}
+#nav_down{
+height: 113px;
+background-color: #271A18;
+margin-bottom: 150px;
+}
+#line{
+height:30px;
+width: 170px;
+border-right-width: 1px;
+border-right-style: solid;
+border-right-color: gold;
+float: left;
+}
+#line_2{
+height:30px;
+width: 250px;
+border-right-width: 1px;
+border-right-style: solid;
+border-right-color: gold;
+float: left;
+}
+#slider{
+height: 30px;
+width: 250px;
+margin-bottom: 150px;
+margin-left: auto;
+margin-right: auto;
+}
+#line_3{
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: gold;
+margin-bottom: 100px;
+}
+#contentup{
+height: 250px;
+background-color: #271A18;
+padding-left: 20%;
+padding-right: 20%;
+margin-bottom: 10px;
+}
+#contentupL{
+width: 37%;
+height: 250px;
+background-image: url('class_img/cookie.jpg');
+background-size: cover;
+background-position: center center;
+margin-right: 23%;
+float: left;
+}
+#contentupR{
+width: 37%;
+height: 250px;
+background-image: url('class_img/Macaron.jpg');
+background-size: cover;
+background-position: center center;
+float: left;
+}
+#contentdown{
+height: 85px;
+background-color: #271A18;
+margin-bottom: 300px;
+padding-left: 23%;
+padding-right: 23%;
+}
+#contentdownL{
+width: 30%;
+height: 85px;
+margin-right:38%;
+float: left;
+}
+#contentdownR{
+width: 30%;
+height: 85px;
+float: left;
+}
+#footer{
+height: 200px;
+background-color: #271A18;
+padding-left: 15%;
+padding-right: 15%;
+}
+#qrcode{
+width: 100px;
+height: 100px;
+background-image: url('img/5.png');
+background-size: cover;
+background-position: center center;
+float: left;
+margin-right: 80px;
+}
+#foothold{
+height: 120px;
+float: left;
+}
+#foothold1{
+width: 250px;
+height: 120px;
+border-left-width: 1px;
+border-left-style: solid;
+border-left-color: white;
+float: left;
+}
+#foothold2{
+width: 250px;
+height: 120px;
+border-left-width: 1px;
+border-left-style: solid;
+border-left-color: white;
+float: left;
+}
+#foothold3{
+width: 250px;
+height: 120px;
+border-left-width: 1px;
+border-left-style: solid;
+border-left-color: white;
+float: left;
+}
